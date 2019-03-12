@@ -1,0 +1,12 @@
+main {
+  width: 100%;
+  display: flex;
+}
+div {
+  margin: 10px;
+  background-color:black;
+  color:white;
+  width: 150px;
+  text-align: center;
+  border: 10px solid #222;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "absolute",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Spencer Hirata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiratap/absolute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiratap/absolute/issues"
+  },
+  "homepage": "https://github.com/shiratap/absolute#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

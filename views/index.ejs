@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('partials/head') %>
+  </head>
+  <header>
+    <%- include('partials/header') %>
+  </header>
+  <body>
+    <main>
+      <div>
+        Name:<%= char.name %><br>
+        Health:<%= char.health %><br>
+        Att:<%= char.attack %><br>
+        Def:<%= char.def %><br>
+        Spd:<%= char.speed %><br>
+        Accuracy:<%= char.accuracy %><br>
+        Dodge:<%= char.dodge %><br>
+        Res:<%= char.res %><br>
+        Luck:<%= char.luck %><br>
+        MS:<%= char.movement %><br>
+      </div>
+      <br>
+      <div>
+        Name:<%= char2.name %><br>
+        Health:<%= char2.health %><br>
+        Att:<%= char2.attack %><br>
+        Def:<%= char2.def %><br>
+        Spd:<%= char2.speed %><br>
+        Accuracy:<%= char2.accuracy %><br>
+        Dodge:<%= char2.dodge %><br>
+        Res:<%= char2.res %><br>
+        Luck:<%= char2.luck %><br>
+        MS:<%= char2.movement %><br>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <%- include('partials/footer') %>
+  </footer>
+</html>
